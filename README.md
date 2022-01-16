@@ -18,7 +18,7 @@ int main()
 		cin >> age;
 	}
 
-	if (age >= 16 || age <= 21)
+	if (age >= 16 && age <= 21 )
 	{
 		string ans;
 		cout << "Do you want to go to the Mall?\n Type Y for Yes\n  Type N for No " << endl;
@@ -35,7 +35,7 @@ int main()
 			cout << "Incorrect command!" << endl;
 		}
 	}
-	else if (age >= 22 || age <= 30)
+	if (age >= 22 && age <= 30)
 	{
 		string input;
 		cout << "Would you like to go to a trip to Hawaii?\n Type Y for yes \n Type N for No" << endl;
